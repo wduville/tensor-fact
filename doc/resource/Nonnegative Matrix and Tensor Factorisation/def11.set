@@ -1,0 +1,455 @@
+%
+%
+%   def.set
+%
+%  a.cichocki
+%
+%       Last updated:
+%      April 20, 2007
+%
+%       A set of my definitions and new commands
+%
+%
+
+% math bold for lower cases (a-z)
+
+%%\newcommand{\ba}{\mbox{\boldmath $a$}}
+%%\newcommand{\bb}{\mbox{\boldmath $b$}}
+%%\newcommand{\bc}{\mbox{\boldmath $c$}}
+%%\newcommand{\bd}{\mbox{\boldmath $d$}}
+%%\newcommand{\bolde}{\mbox{\boldmath $e$}}
+%%\newcommand{\boldf}{\mbox{\boldmath $f$}}
+%%\newcommand{\bg}{\mbox{\boldmath $g$}}
+%%\newcommand{\bh}{\mbox{\boldmath $h$}}
+%%\newcommand{\bi}{\mbox{\boldmath $i$}}
+%%\newcommand{\bj}{\mbox{\boldmath $j$}}
+%%\newcommand{\bk}{\mbox{\boldmath $k$}}
+%%\newcommand{\bl}{\mbox{\boldmath $l$}}
+%%\newcommand{\bm}{\mbox{\boldmath $m$}}
+%%\newcommand{\bn}{\mbox{\boldmath $n$}}
+%%\newcommand{\bo}{\mbox{\boldmath $o$}}
+%%\newcommand{\bp}{\mbox{\boldmath $p$}}
+%%\newcommand{\bq}{\mbox{\boldmath $q$}}
+%%\newcommand{\br}{\mbox{\boldmath $r$}}
+%%\newcommand{\bs}{\mbox{\boldmath $s$}}
+%%\newcommand{\bt}{\mbox{\boldmath $t$}}
+%%\newcommand{\bu}{\mbox{\boldmath $u$}}
+%%\newcommand{\bv}{\mbox{\boldmath $v$}}
+%%\newcommand{\bw}{\mbox{\boldmath $w$}}
+%%\newcommand{\bx}{\mbox{\boldmath $x$}}
+%%\newcommand{\by}{\mbox{\boldmath $y$}}
+%%\newcommand{\bz}{\mbox{\boldmath $z$}}  
+
+\newcommand{\ba}{{\bvec{a}}}      
+\newcommand{\bb}{\bvec{b}}      
+\newcommand{\bc}{\bvec{c}}      
+\newcommand{\bd}{\bvec{d}}      
+\newcommand{\bee}{\bvec{e}}      
+\newcommand{\bff}{\bvec{f}}      
+\newcommand{\bg}{\bvec{g}}      
+\newcommand{\bh}{\bvec{h}}      
+\newcommand{\bi}{\bvec{i}}      
+\newcommand{\bj}{\bvec{j}}      
+\newcommand{\bk}{\bvec{k}}      
+\newcommand{\bl}{\bvec{l}}      
+\newcommand{\bm}{\bvec{m}}      
+\newcommand{\bn}{\bvec{n}}      
+\newcommand{\bo}{\bvec{o}}      
+\newcommand{\bp}{\bvec{p}}      
+\newcommand{\bq}{\bvec{q}}      
+\newcommand{\br}{\bvec{r}}      
+\newcommand{\bs}{\bvec{s}}      
+\newcommand{\bt}{\bvec{t}}      
+\newcommand{\bu}{\bvec{u}}      
+\newcommand{\bv}{\bvec{v}}      
+\newcommand{\bw}{\bvec{w}}      
+\newcommand{\bx}{\bvec{x}}      
+\newcommand{\by}{\bvec{y}}      
+\newcommand{\bz}{\bvec{z}}      
+
+
+% math bold for upper cases (A-Z)
+%%\newcommand{\bA}{\mbox{\boldmath $\bf A$}}
+%%\newcommand{\bB}{\mbox{\boldmath $\bf B$}}
+%%\newcommand{\bC}{\mbox{\boldmath $\bf C$}}
+%%\newcommand{\bD}{\mbox{\boldmath $\bf D$}}
+%%\newcommand{\bE}{\mbox{\boldmath $\bf E$}}
+%%\newcommand{\bF}{\mbox{\boldmath $\bf F$}}
+%%\newcommand{\bG}{\mbox{\boldmath $\bf G$}}
+%%\newcommand{\bH}{\mbox{\boldmath $\bf H$}}
+%%\newcommand{\bI}{\mbox{\boldmath $\bf I$}}
+%%\newcommand{\bJ}{\mbox{\boldmath $\bf J$}}
+%%\newcommand{\bK}{\mbox{\boldmath $\bf K$}}
+%%\newcommand{\bL}{\mbox{\boldmath $\bf L$}}
+%%\newcommand{\bM}{\mbox{\boldmath $\bf M$}}
+%%\newcommand{\bN}{\mbox{\boldmath $\bf N$}}
+%%\newcommand{\bO}{\mbox{\boldmath $\bf O$}}
+%%\newcommand{\bP}{\mbox{\boldmath $\bf P$}}
+%%\newcommand{\bQ}{\mbox{\boldmath $\bf Q$}}
+%%\newcommand{\bR}{\mbox{\boldmath $\bf R$}}
+%%\newcommand{\bS}{\mbox{\boldmath $\bf S$}}
+%%\newcommand{\bT}{\mbox{\boldmath $\bf T$}}
+%%\newcommand{\bU}{\mbox{\boldmath $\bf U$}}
+%%\newcommand{\bV}{\mbox{\boldmath $\bf V$}}
+%%\newcommand{\bW}{\mbox{\boldmath $\bf W$}}
+%%\newcommand{\bX}{\mbox{\boldmath $\bf X$}}
+%%\newcommand{\bY}{\mbox{\boldmath $\bf Y$}}
+%%\newcommand{\bZ}{\mbox{\boldmath $\bf Z$}}
+
+\newcommand{\bA}{{\bf A}}
+\newcommand{\bB}{{\bf B}}
+\newcommand{\bC}{{\bf C}}
+\newcommand{\bD}{{\bf D}}
+\newcommand{\bE}{{\bf E}}
+\newcommand{\bF}{{\bf F}}
+\newcommand{\bG}{{\bf G}}
+\newcommand{\bH}{{\bf H}}
+\newcommand{\bI}{{\bf I}}
+\newcommand{\bJ}{{\bf J}}
+\newcommand{\bK}{{\bf K}}
+\newcommand{\bL}{{\bf L}}
+\newcommand{\bM}{{\bf M}}
+\newcommand{\bN}{{\bf N}}
+\newcommand{\bO}{{\bf O}}
+\newcommand{\bP}{{\bf P}}
+\newcommand{\bQ}{{\bf Q}}
+\newcommand{\bR}{{\bf R}}
+\newcommand{\bS}{{\bf S}}
+\newcommand{\bT}{{\bf T}}
+\newcommand{\bU}{{\bf U}}
+\newcommand{\bV}{{\bf V}}
+\newcommand{\bW}{{\bf W}}
+\newcommand{\bX}{{\bf X}}
+\newcommand{\bY}{{\bf Y}}
+\newcommand{\bZ}{{\bf Z}}
+
+
+
+
+
+% calligraphic
+\newcommand{\calA}{{\mathcal{A}}}
+\newcommand{\calB}{{\mathcal{B}}}
+\newcommand{\calC}{{\mathcal{C}}}
+\newcommand{\calD}{{\mathcal{D}}}
+\newcommand{\calE}{{\mathcal{E}}}
+\newcommand{\calF}{{\mathcal{F}}}
+\newcommand{\calG}{{\mathcal{G}}}
+\newcommand{\calH}{{\mathcal{H}}}
+\newcommand{\calI}{{\mathcal{I}}}
+\newcommand{\calJ}{{\mathcal{J}}}
+\newcommand{\calK}{{\mathcal{K}}}
+\newcommand{\calL}{{\mathcal{L}}}
+\newcommand{\calM}{{\mathcal{M}}}
+\newcommand{\calN}{{\mathcal{N}}}
+\newcommand{\calO}{{\mathcal{O}}}
+\newcommand{\calP}{{\mathcal{P}}}
+\newcommand{\calQ}{{\mathcal{Q}}}
+\newcommand{\calR}{{\mathcal{R}}}
+\newcommand{\calS}{{\mathcal{S}}}
+\newcommand{\calT}{{\mathcal{T}}}
+\newcommand{\calU}{{\mathcal{U}}}
+\newcommand{\calV}{{\mathcal{V}}}
+\newcommand{\calW}{{\mathcal{W}}}
+\newcommand{\calX}{{\mathcal{X}}}
+\newcommand{\calY}{{\mathcal{Y}}}
+\newcommand{\calZ}{{\mathcal{Z}}}
+
+\newcommand{\sfA}{\mbox{$\mathsf A$}}
+\newcommand{\sfB}{\mbox{$\mathsf B$}}
+\newcommand{\sfC}{\mbox{$\mathsf C$}}
+\newcommand{\sfD}{\mbox{$\mathsf D$}}
+\newcommand{\sfE}{\mbox{$\mathsf E$}}
+\newcommand{\sfF}{\mbox{$\mathsf F$}}
+\newcommand{\sfG}{\mbox{$\mathsf G$}}
+\newcommand{\sfH}{\mbox{$\mathsf H$}}
+\newcommand{\sfI}{\mbox{$\mathsf I$}}
+\newcommand{\sfJ}{\mbox{$\mathsf J$}}
+\newcommand{\sfK}{\mbox{$\mathsf K$}}
+\newcommand{\sfL}{\mbox{$\mathsf L$}}
+\newcommand{\sfM}{\mbox{$\mathsf M$}}
+\newcommand{\sfN}{\mbox{$\mathsf N$}}
+\newcommand{\sfO}{\mbox{$\mathsf O$}}
+\newcommand{\sfP}{\mbox{$\mathsf P$}}
+\newcommand{\sfQ}{\mbox{$\mathsf Q$}}
+\newcommand{\sfR}{\mbox{$\mathsf R$}}
+\newcommand{\sfS}{\mbox{$\mathsf S$}}
+\newcommand{\sfT}{\mbox{$\mathsf T$}}
+\newcommand{\sfU}{\mbox{$\mathsf U$}}
+\newcommand{\sfV}{\mbox{$\mathsf V$}}
+\newcommand{\sfW}{\mbox{$\mathsf W$}}
+\newcommand{\sfX}{\mbox{$\mathsf X$}}
+\newcommand{\sfY}{\mbox{$\mathsf Y$}}
+\newcommand{\sfZ}{\mbox{$\mathsf Z$}}
+
+
+
+
+
+% math bold for lower cases (Greek letters)
+\newcommand{\balpha}{\mbox{\boldmath $\alpha$}}
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$}}
+\newcommand{\bgamma}{\mbox{\boldmath $\gamma$}}
+\newcommand{\bdelta}{\mbox{\boldmath $\delta$}}
+\newcommand{\bepsilon}{\mbox{\boldmath $\epsilon$}}
+\newcommand{\bvarepsilon}{\mbox{\boldmath $\varepsilon$}}
+\newcommand{\bzeta}{\mbox{\boldmath $\zeta$}}
+\newcommand{\boldeta}{\mbox{\boldmath $\eta$}}
+\newcommand{\btheta}{\mbox{\boldmath $\theta$}}
+\newcommand{\bvartheta}{\mbox{\boldmath $\vartheta$}}
+\newcommand{\biota}{\mbox{\boldmath $\iota$}}
+\newcommand{\bkappa}{\mbox{\boldmath $\kappa$}}
+\newcommand{\blambda}{\mbox{\boldmath $\lambda$}}
+\newcommand{\bmu}{\mbox{\boldmath $\mu$}}
+\newcommand{\bnu}{\mbox{\boldmath $\nu$}}
+\newcommand{\bxi}{\mbox{\boldmath $\xi$}}
+\newcommand{\bpi}{\mbox{\boldmath $\pi$}}
+\newcommand{\bvarpi}{\mbox{\boldmath $\varpi$}}
+\newcommand{\brho}{\mbox{\boldmath $\rho$}}
+\newcommand{\bvarrho}{\mbox{\boldmath $\varrho$}}
+\newcommand{\bsigma}{\mbox{\boldmath $\sigma$}}
+\newcommand{\bvarsigma}{\mbox{\boldmath $\varsigma$}}
+\newcommand{\btau}{\mbox{\boldmath $\tau$}}
+\newcommand{\bupsilon}{\mbox{\boldmath $\upsilon$}}
+\newcommand{\bphi}{\mbox{\boldmath $\phi$}}
+\newcommand{\bvarphi}{\mbox{\boldmath $\varphi$}}
+\newcommand{\bchi}{\mbox{\boldmath $\chi$}}
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$}}
+\newcommand{\bomega}{\mbox{\boldmath $\omega$}}
+
+
+
+
+
+% math bold for upper cases (Greek Letters)
+\newcommand{\bGamma}{\mbox{\boldmath $\Gamma$}}
+\newcommand{\bDelta}{\mbox{\boldmath $\Delta$}}
+\newcommand{\bTheta}{\mbox{\boldmath $\Theta$}}
+\newcommand{\bLambda}{\mbox{\boldmath $\Lambda$}}
+\newcommand{\bXi}{\mbox{\boldmath $\Xi$}}
+\newcommand{\bPi}{\mbox{\boldmath $\Pi$}}
+\newcommand{\bSigma}{\mbox{\boldmath $\Sigma$}}
+\newcommand{\bUpsilon}{\mbox{\boldmath $\Upsilon$}}
+\newcommand{\bPhi}{\mbox{\boldmath $\Phi$}}
+\newcommand{\bPsi}{\mbox{\boldmath $\Psi$}}
+\newcommand{\bOmega}{\mbox{\boldmath $\Omega$}}
+
+
+
+
+
+% vector notation for lower cases (a-z)
+\newcommand{\veca}{{\vec{\ba}}}
+\newcommand{\vecb}{{\vec{\bb}}}
+\newcommand{\vecc}{{\vec{\bc}}}
+\newcommand{\vecd}{{\vec{\bd}}}
+\newcommand{\vece}{{\vec{\bolde}}}
+\newcommand{\vecf}{{\vec{\boldf}}}
+\newcommand{\vecg}{{\vec{\bg}}}
+\newcommand{\vech}{{\vec{\bh}}}
+\newcommand{\veci}{{\vec{\bi}}}
+\newcommand{\vecj}{{\vec{\bj}}}
+\newcommand{\veck}{{\vec{\bk}}}
+\newcommand{\vecl}{{\vec{\bl}}}
+\newcommand{\vecm}{{\vec{\bm}}}
+\newcommand{\vecn}{{\vec{\bn}}}
+\newcommand{\veco}{{\vec{\bo}}}
+\newcommand{\vecp}{{\vec{\bp}}}
+\newcommand{\vecq}{{\vec{\bq}}}
+\newcommand{\vecr}{{\vec{\br}}}
+\newcommand{\vecs}{{\vec{\bs}}}
+\newcommand{\vect}{{\vec{\bt}}}
+\newcommand{\vecu}{{\vec{\bu}}}
+\newcommand{\vecv}{{\vec{\bv}}}
+\newcommand{\vecw}{{\vec{\bw}}}
+\newcommand{\vecx}{{\vec{\bx}}}
+\newcommand{\vecy}{{\vec{\by}}}
+\newcommand{\vecz}{{\vec{\bz}}}
+
+\newcommand{\vecxi}{{\vec{\bxi}}}
+\newcommand{\vecphi}{{\vec{\bphi}}}
+\newcommand{\vecvarphi}{{\vec{\bvarphi}}}
+\newcommand{\vecbeta}{{\vec{\bbeta}}}
+
+
+% set of numbers
+\newcommand{\Real}{\mathbb R}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\Natural}{\mathbb N}
+\newcommand{\Integer}{\mathbb Z}
+
+
+\newcommand{\1}{\mbox{\boldmath $1$}}
+\newcommand{\0}{\mbox{\boldmath $0$}}
+%\newcommand{\0}{{\bf 0}}
+
+% ets
+%\newcommand{\bone}{\mbox{\boldmath $1$}}
+%\newcommand{\bzero}{\mbox{\boldmath $0$}}
+%\newcommand{\0}{{\bf 0}}
+
+\newcommand{\be}{\begin{eqnarray}}
+\newcommand{\ee}{\end{eqnarray}}
+
+\newcommand{\matrixb}{\left[ \begin{array}}
+\newcommand{\matrixe}{\end{array} \right]}   
+
+
+
+\newcommand{\argmax}{\operatornamewithlimits{\arg \max}}
+\newcommand{\argmin}{\operatornamewithlimits{\arg \min}}
+
+
+% from Cichocki's
+
+\newcommand{\mbi}[1]{\mbox{\boldmath $#1$}}
+
+\newcommand{\hbi}[1]{{\mathcal { #1} }}
+
+\newcommand{\hb}[1] {{\mathcal { #1} }}
+
+\newcommand{\mhb}[1] {\mbi{\mathcal { #1} }}
+
+\newcommand {\tbar}[1]{\tilde{{\mathbf { #1}  }}}
+
+\newcommand{\Npl}{\tilde{\partial}}
+
+%\newcommand {\Lbar}[1]{\overline{{\mathbf { #1}  }}}
+\newcommand {\mbar}[1]{\overline{{\mathbf { #1}  }}}
+\newcommand {\hmbar}[1]{\mbi{\overline{{\mathcal { #1}  }}}}
+
+%\newcommand{\matb}{\left[ \begin{array}}
+%\newcommand{\mate}{\end{array} \right]}
+
+\newcommand{\sign}{\mathop{\rm sign}\nolimits}
+\newcommand{\tr}{\mathop{\rm tr}\nolimits}
+\newcommand{\diag}{\mathop{\rm diag}\nolimits}
+
+\def\uPhi{\underline{\bf\Phi}}
+%\def\bLambda{{\bf\Lambda}}
+\def\uxi{\underline{\xi}}
+
+\def\*{\circledast}
+
+\newcommand{\intinf}{\int\limits_{-\infty}^{\infty}}
+
+
+\def\oox{{\overline {\bf x}}}
+\def\ox{{\overline {x}}}
+
+\def\uuzer{\underline{\bf 0}}
+\def\uujed{\underline{\bf 1}}
+\def\uuI{\underline{\bf I}}
+\def\uus{\underline{\bf s}}
+\def\uux{\underline{\bf x}}
+\def\uuy{\underline{\bf y}}
+\def\uuu{\underline{\bf u}}
+\def\uuv{\underline{\bf v}}
+\def\uuc{\underline{\bf c}}
+\def\uuh{\underline{\bf h}}
+\def\uug{\underline{\bf g}}
+\def\uuw{\underline{\bf w}}
+\def\uuC{\underline{\bf C}}
+\def\uuR{\underline{\bf R}}
+\def\uuG{\underline{\bf G}}
+\def\uuH{\underline{\bf H}}
+\def\uuW{\underline{\bf W}}
+
+
+\def\uzer{\underline{0}}
+\def\ujed{\underline{1}}
+\def\uI{\underline{I}}
+\def\ug{\underline{g}}
+\def\us{\underline{s}}
+\def\ux{\underline{x}}
+\def\uy{\underline{y}}
+\def\uu{\underline{u}}
+\def\uv{\underline{v}}
+\def\uc{\underline{c}}
+\def\uh{\underline{h}}
+\def\uw{\underline{w}}
+
+\newcommand {\Abar}{\overline{\bf A}}
+\newcommand {\Bbar}{\overline{\bf B}}
+\newcommand {\Cbar}{\overline{\bf C}}
+\newcommand {\Dbar}{\overline{\bf D}}
+\newcommand {\Gbar}{\overline{\bf G}}
+\newcommand {\xbar}{\overline{\bf x}}
+\newcommand {\ubar}{\overline{\bf u}}
+\newcommand {\Nbar}{\overline{\bf N}}
+\newcommand {\Lbar}{\overline{\bf L}}
+
+\newtheorem{theorem}{\Theoremcolor{Theorem}}[chapter]
+\newtheorem{lemma}{\Lemmacolor{Lemma}}[chapter]
+\newtheorem{corollary}{\Corollarycolor{Corollary}}[chapter]
+\newtheorem{proposition}{\propositioncolor{Proposition}}[chapter]
+\newtheorem{definition}{\Definitioncolor{Definition}}[chapter]
+\newtheorem{rem1}{\remarkcolor{Remark}}[chapter]
+\newtheorem{example}{\examplecolor{Example}}[chapter]
+\newtheorem{transformation}{\transformationcolor{Transformation}}[chapter]
+
+
+%%\definecolor{Theoremcolor}{rgb}{0.2118,    0.3725,    0.5686}
+%%\definecolor{Lemmacolor}{rgb}{0.3725   , 0.2863    ,0.4784}
+%%\definecolor{Corollarycolor}{rgb}{0.1922  ,  0.5176    ,0.6078}
+%%\definecolor{propositioncolor}{rgb}{0.8902   , 0.4235  ,  0.0392}
+%%\definecolor{Definitioncolor}{rgb}{ 0.4392 ,   0.1882,    0.6275}
+%%\definecolor{remarkcolor}{rgb}{0.5804,    0.2118   , 0.2039}
+%%\definecolor{examplecolor}{rgb}{ 0.4784   , 0.7373,    0.1961}
+\newcommand\Theoremcolor          {\color{redaccent}}
+\newcommand\Lemmacolor            {\color{redaccent}}
+\newcommand\Corollarycolor        {\color{redaccent}}
+\newcommand\propositioncolor      {\color{redaccent}}
+\newcommand\Definitioncolor       {\color{redaccent}}
+\newcommand\remarkcolor           {\color{redaccent}}
+\newcommand\examplecolor          {\color{redaccent}}
+\newcommand\transformationcolor   {\color{redaccent}}
+
+%%\definecolor{highlightcolor}{rgb}{0.96,0.8,0.8}
+\definecolor{color_cline}{rgb}{0.8353  ,  0.9412  ,  0.9843}
+%%\definecolor{shadingcolor}{rgb}{ 0.9227 ,  0.9961 ,  0.9292}
+%%\definecolor{shadingcolor}{rgb}{ 0.5529 ,   0.7020   , 0.8863}
+%%\definecolor{shadingcolor}{rgb}{0.7490 ,   0.8745  ,  1.0000}
+%\definecolor{shadingcolor}{rgb}{0.96 ,  0.96 ,  0.96}
+\definecolor{shadingcolor}{rgb} {0.96 ,  0.96 ,  0.96}%%{0.8588 ,   0.8980 ,   0.9451} %%
+\definecolor{highlightcolor}{rgb}{0.961,	0.988,	1.000}%%{0.8588 ,   0.8980 ,   0.9451} 
+\definecolor{bordercolor}{rgb}{0.3294 ,   0.5529  ,  0.8314}
+%\newcommand\mathcolor         {\color{DarkBlue}}
+\newcommand\mathcolor         {\color{black}}
+
+
+
+\newcommand{\bvec}[1]{\boldsymbol{#1}}
+
+\newcommand{\va}{\bvec{a}}
+\newcommand{\vb}{\bvec{b}}
+\newcommand{\vc}{\bvec{c}}
+\newcommand{\vd}{\bvec{d}}
+\newcommand{\ve}{\bvec{e}}
+\newcommand{\vf}{\bvec{f}}
+\newcommand{\vg}{\bvec{c}}
+\newcommand{\vh}{\bvec{h}}
+\newcommand{\vi}{\bvec{i}}
+\newcommand{\vj}{\bvec{j}}
+\newcommand{\vk}{\bvec{k}}
+\newcommand{\vl}{\bvec{l}}
+\newcommand{\vm}{\bvec{m}}
+\newcommand{\vn}{\bvec{n}}
+\newcommand{\vo}{\bvec{o}}
+\newcommand{\vp}{\bvec{p}}
+\newcommand{\vq}{\bvec{q}}
+\newcommand{\vr}{\bvec{r}}
+\newcommand{\vs}{\bvec{s}}
+\newcommand{\vt}{\bvec{t}}
+\newcommand{\vu}{\bvec{u}}
+\newcommand{\vv}{\bvec{v}}
+\newcommand{\vw}{\bvec{w}}
+\newcommand{\vx}{\bvec{x}}
+\newcommand{\vy}{\bvec{y}}
+\newcommand{\vz}{\bvec{z}}
+
+\newcommand{\vtr}[1]{\text{vec}\left(#1\right)}
+
+\newcounter{example_num}[chapter]
+\setcounter{example_num}{0}
+\newcommand{\examplecnt}[0]{\refstepcounter{example}{\examplecolor\bf Example \arabic{chapter}.\arabic{example}}}
